@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://v1.fontapi.ir/css/Vazir');
+
+body { 
+  font-family:"Vazir";
+  direction: rtl;
+}
