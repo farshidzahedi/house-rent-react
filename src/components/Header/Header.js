@@ -8,7 +8,7 @@ function Header() {
         <div className="flex ml-5">
           <div>
             <Link to="/">
-              <img src="./image/kilid.svg" className="Logo w-20	" />
+              <img src="./image/kilid.svg" className="Logo w-20 ml-10 " />
             </Link>
           </div>
           <div>
