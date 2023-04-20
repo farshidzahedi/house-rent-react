@@ -27,7 +27,7 @@ function PropertyDetails() {
 
   return (
     <section>
-      <div className="container  mx-auto mb-5 p-5 ">
+      <div className="container mx-auto p-5 bg-gray-50 mb-5 rounded-lg">
         {/* info House */}
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
           <div>

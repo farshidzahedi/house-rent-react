@@ -1,7 +1,7 @@
 {
   "name": "rent-house",
   "version": "0.1.0",
-  "homepage": "https://farshidzahedi.github.io/farshidzahedi/house-rent-react",
+  "homepage": "https://farshidzahedi.github.io/house-rent-react",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.13",
