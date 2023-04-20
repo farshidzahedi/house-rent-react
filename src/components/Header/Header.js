@@ -7,13 +7,13 @@ function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex ml-5">
           <div>
-            <Link to="/">
+            <Link to="/home">
               <img src="./image/kilid.svg" className="Logo w-20 ml-10 " />
             </Link>
           </div>
           <div>
             <ul className="flex gap-10">
-              <Link to="/">
+              <Link to="/home">
                 <li>صفحه اصلی</li>
               </Link>
               <Link to="/about">
