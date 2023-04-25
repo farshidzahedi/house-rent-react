@@ -39,8 +39,8 @@ function Header() {
                     </ul>
                   ))}
                   <div className="mt-5">
-                    <img src='./../../assets/img/vila-megamenu.jpg' />
-                  </div>
+                  <img src="./image/vila-megamenu.jpg"/>
+                   </div>
                 </div>
               )}
             </li>
