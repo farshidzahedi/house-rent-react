@@ -25,7 +25,7 @@ function Footer() {
           </div>
         </div>
         <div className="center lg:w-1/3">
-          <span className="text-white">لینک های مفید</span>
+          <span className="text-white"> لینک های مفید</span>
 
           <ul className="text-gray-100 mt-5">
             <li className="text-sm bg-gray-500 mb-3 px-3 py-2 rounded-full hover:text-kilid hover:bg-white transition">
