@@ -58,7 +58,7 @@ export const Menu = [
   { navmenu: "صفحه اصلی", link: "/" },
   {
     navmenu: "مگامنو",
-    link: "menu",
+    link: "#",
     img: "./assets/img/vila-megamenu.jpg",
     megamenu: true,
     submenu: [
