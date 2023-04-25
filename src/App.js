@@ -20,7 +20,7 @@ function App() {
       <Header />
     <div className="max-w-[1200px] mx-auto bg-white ">
       <Routes>
-        <Route path="https://farshidzahedi.github.io/house-rent-react" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/Property/:id" element={<PropertyDetails />} />

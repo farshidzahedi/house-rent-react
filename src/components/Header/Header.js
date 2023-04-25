@@ -31,7 +31,7 @@ function Header() {
                   {menuItem.submenu.map((sub) => (
                     <ul className="flex flex-col cursor-pointer font-bold w-auto">
                       {sub.subtitleUl}
-                      <div className="flex mt-5 font-thin flex-col gap-2 cursor-pointer w-auto ">
+                      <div className="flex mt-5 font-thin flex-col gap-2 cursor-pointer w-auto">
                         {sub.subsubtitle.map((li) => (
                           <li className="hover:text-kilid">{li.subtitle}</li>
                         ))}
@@ -39,7 +39,7 @@ function Header() {
                     </ul>
                   ))}
                   <div className="mt-5">
-                  <img src="./image/vila-megamenu.jpg"/>
+                  <img className="w-[400px] h-auto" src="./image/vila-megamenu.jpg"/>
                    </div>
                 </div>
               )}
