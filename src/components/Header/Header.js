@@ -29,7 +29,7 @@ function Header() {
               {menuItem.megamenu && (
                 <div className="absolute hidden group-hover:md:flex left-10 top-15 bg-white z-10 w-[80%] rounded-md p-5 shadow-lg flex flex-row gap-x-20">
                   {menuItem.submenu.map((sub) => (
-                    <ul className="flex flex-col cursor-pointer font-bold">
+                    <ul className="flex flex-col cursor-pointer font-bold w-auto">
                       {sub.subtitleUl}
                       <div className="flex mt-5 font-thin flex-col gap-2 cursor-pointer  ">
                         {sub.subsubtitle.map((li) => (
