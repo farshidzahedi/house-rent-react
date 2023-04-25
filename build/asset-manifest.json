@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/house-rent-react/static/css/main.3ac54880.css",
-    "main.js": "/house-rent-react/static/js/main.c89a5a42.js",
+    "main.js": "/house-rent-react/static/js/main.259bb725.js",
     "static/js/787.8f40de2f.chunk.js": "/house-rent-react/static/js/787.8f40de2f.chunk.js",
     "static/media/house12lg.png": "/house-rent-react/static/media/house12lg.ac9d7673a85220c54330.png",
     "static/media/house10lg.png": "/house-rent-react/static/media/house10lg.7cdefca31329de5e3f8a.png",
@@ -54,11 +54,11 @@
     "static/media/agent3.png": "/house-rent-react/static/media/agent3.e10cfbea6a67f149dcdc.png",
     "index.html": "/house-rent-react/index.html",
     "main.3ac54880.css.map": "/house-rent-react/static/css/main.3ac54880.css.map",
-    "main.c89a5a42.js.map": "/house-rent-react/static/js/main.c89a5a42.js.map",
+    "main.259bb725.js.map": "/house-rent-react/static/js/main.259bb725.js.map",
     "787.8f40de2f.chunk.js.map": "/house-rent-react/static/js/787.8f40de2f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ac54880.css",
-    "static/js/main.c89a5a42.js"
+    "static/js/main.259bb725.js"
   ]
 }

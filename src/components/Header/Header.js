@@ -31,7 +31,7 @@ function Header() {
                   {menuItem.submenu.map((sub) => (
                     <ul className="flex flex-col cursor-pointer font-bold w-auto">
                       {sub.subtitleUl}
-                      <div className="flex mt-5 font-thin flex-col gap-2 cursor-pointer  ">
+                      <div className="flex mt-5 font-thin flex-col gap-2 cursor-pointer w-auto ">
                         {sub.subsubtitle.map((li) => (
                           <li className="hover:text-kilid">{li.subtitle}</li>
                         ))}
