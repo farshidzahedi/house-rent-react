@@ -18,7 +18,7 @@ function HouseList() {
   }
 
   return (
-    <section className="mt-40">
+    <section className="my-20">
       <div className="">
         <div className=" mx-auto">
           <div className="grid md:gride-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-8">

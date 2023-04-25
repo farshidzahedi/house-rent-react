@@ -54,6 +54,52 @@ import Agent10 from "./assets/img/agents/agent10.png";
 import Agent11 from "./assets/img/agents/agent11.png";
 import Agent12 from "./assets/img/agents/agent12.png";
 
+export const Menu = [
+  { navmenu: "صفحه اصلی", link: "/" },
+  {
+    navmenu: "مگامنو",
+    link: "menu",
+    img: "./assets/img/vila-megamenu.jpg",
+    megamenu: true,
+    submenu: [
+      {subtitleUl: "ویلایی",
+        link: "1",
+        megamenu: true,
+        subsubtitle: [
+          { subtitle: "از 1 میلیون تا 2 میلیون", link: "/" },
+          { subtitle: "از 2 میلیون تا 3 میلیون", link: "/" },
+          { subtitle: "از 3 میلیون تا 4 میلیون", link: "/" },
+          { subtitle: "از 4 میلیون تا 5 میلیون", link: "/" },
+        ],
+      },
+      {
+        subtitleUl: "مسکونی",
+        link: "2",
+        megamenu: true,
+        subsubtitle: [
+          { subtitle: "از 1 میلیون تا 2 میلیون", link: "/" },
+          { subtitle: "از 2 میلیون تا 3 میلیون", link: "/" },
+          { subtitle: "از 3 میلیون تا 4 میلیون", link: "/" },
+          { subtitle: "از 4 میلیون تا 5 میلیون", link: "/" },
+        ],
+      },
+      {
+        subtitleUl: "ساحلی",
+        link: "3",
+        megamenu: true,
+        subsubtitle: [
+          { subtitle: "از 1 میلیون تا 2 میلیون", link: "/" },
+          { subtitle: "از 2 میلیون تا 3 میلیون", link: "/" },
+          { subtitle: "از 3 میلیون تا 4 میلیون", link: "/" },
+          { subtitle: "از 4 میلیون تا 5 میلیون", link: "/" },
+        ],
+      },
+    ],
+  },
+  { navmenu: "درباره ما", link: "about" },
+  { navmenu: "تماس با ما", link: "contact" },
+];
+
 export const Data = [
   {
     id: 1,

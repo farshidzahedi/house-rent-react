@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createContext } from "react";
-import { Data } from "../../data";
+import { Data ,Menu } from "../../data";
 
 export const HouseContextData = createContext();
 
@@ -11,6 +11,8 @@ const HouseContext = ({ children }) => {
   const [properties, setProperties] = useState([]);
   const [price, setPrice] = useState("همه قیمت ها");
   const [loading, setLoading] = useState(false);
+  const [menu, setMenu] = useState(Menu);
+
 
   // set countries state
   useEffect(() => {
@@ -117,6 +119,8 @@ const HouseContext = ({ children }) => {
         handelClick,
         loading,
         setLoading,
+        menu,
+        setMenu
 
       }}
     >
