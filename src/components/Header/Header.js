@@ -23,23 +23,23 @@ function Header() {
         <div className="md:flex hidden gap-8 items-center m-5 ">
           {menu.map((menuItem) => (
             <li className="list-none group">
-              <Link className="hover:text-black" to={menuItem.link}>
+              <Link className="hover:text-black cursor-pointer" to={menuItem.link}>
                 {menuItem.navmenu}
               </Link>
               {menuItem.megamenu && (
                 <div className="absolute hidden group-hover:md:flex left-10 top-15 bg-white z-10 w-[80%] rounded-md p-5 shadow-lg flex flex-row gap-x-20">
                   {menuItem.submenu.map((sub) => (
-                    <ul className="flex flex-col font-bold">
+                    <ul className="flex flex-col cursor-pointer font-bold">
                       {sub.subtitleUl}
-                      <div className="flex mt-5 font-thin flex-col gap-2  ">
+                      <div className="flex mt-5 font-thin flex-col gap-2 cursor-pointer  ">
                         {sub.subsubtitle.map((li) => (
-                          <li>{li.subtitle}</li>
+                          <li className="hover:text-kilid">{li.subtitle}</li>
                         ))}
                       </div>
                     </ul>
                   ))}
                   <div className="mt-5">
-                    <img src={menuItem.img} />
+                    <img src='./../../assets/img/vila-megamenu.jpg' />
                   </div>
                 </div>
               )}
