@@ -27,7 +27,7 @@ function Header() {
                 {menuItem.navmenu}
               </Link>
               {menuItem.megamenu && (
-                <div className="absolute hidden group-hover:md:flex left-10 top-15 bg-white z-10 w-[80%] rounded-md p-5 shadow-lg flex flex-row gap-x-20">
+                <div className="absolute hidden group-hover:md:flex left-10 top-15 bg-white z-10 w-auto rounded-md p-5 shadow-lg flex flex-row gap-x-20">
                   {menuItem.submenu.map((sub) => (
                     <ul className="flex flex-col cursor-pointer font-bold w-auto">
                       {sub.subtitleUl}
