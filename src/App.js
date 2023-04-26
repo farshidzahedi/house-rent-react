@@ -20,10 +20,10 @@ function App() {
       <Header />
     <div className="max-w-[1200px] mx-auto bg-white ">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/Property/:id" element={<PropertyDetails />} />
+        <Route path="/house-rent-react" element={<Home />} />
+        <Route path="/house-rent-react/about" element={<About />} />
+        <Route path="/house-rent-react/contact" element={<Contact />} />
+        <Route path="/house-rent-react/Property/:id" element={<PropertyDetails />} />
       </Routes>
     </div>
       <Footer />
