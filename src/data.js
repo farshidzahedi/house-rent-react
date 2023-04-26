@@ -96,8 +96,8 @@ export const Menu = [
       },
     ],
   },
-  { navmenu: "درباره ما", link: "about" },
-  { navmenu: "تماس با ما", link: "contact" },
+  { navmenu: "درباره ما", link: "/house-rent-react/about" },
+  { navmenu: "تماس با ما", link: "house-rent-react/contact" },
 ];
 
 export const Data = [
